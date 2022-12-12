@@ -31,9 +31,9 @@
     <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
 
     <!-- Minify Version -->
-    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css" />
-    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css" />
-    <link rel="stylesheet" href="assets/css/style.min.css" />
+    <link rel="stylesheet" href="/assets/css/vendor/vendor.min.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/plugins.min.css" />
+    <link rel="stylesheet" href="/assets/css/style.min.css" />
   </head>
 
   <body>
@@ -223,8 +223,13 @@
             <div class="image">
               <img
                 class="img-fluid"
-                src="assets/images/users/user-4.jpg"
+                src="/assets/images/users/user-4.jpg"
                 alt=""
+                style="
+                border:1px solid grey;
+                border-radius: 50%;
+                opacity: 0.75;
+                "
               />
 
               <div class="image-half-round-shape"></div>
@@ -671,8 +676,8 @@
       <!-- ...::: End Company Logo Display Section :::... -->
 
       <!-- get in touch start -->
-      <section id="contact">
-      <div class="row" style="display: flex; justify-content: center" >
+      <section id="contact" class="container">
+      <div class="row" style="display: flex; justify-content: center;    margin-right: 0px;" >
         <div class="col-lg-7 offset-lg-1 mb-3">
           <div class="contact-form-wrapper section-mt-165">
             <!-- Start Section Content -->
